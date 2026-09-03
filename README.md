@@ -42,6 +42,9 @@ implement advanced coherence mathematics.
 ---
 
 ## Where This Applies
+Intended Role: Compute-Efficient Prefilter
+
+The Coherence Filter is designed to function as a lightweight screening layer before more computationally expensive AI analysis. Rather than attempting to resolve every possible semantic or logical issue itself, the filter rapidly identifies potentially problematic regions—such as contradictions, numerical conflicts, or structural inconsistencies—in milliseconds. An AI system can then direct deeper reasoning and additional compute specifically toward flagged material before reviewing the result within the broader context of the response. This allows inexpensive deterministic checks to act as a first-pass triage mechanism without introducing a noticeable delay into normal generation.
 
 This is a session-level check. It fits anywhere a system holds positions across
 multiple turns and can drift from them.
